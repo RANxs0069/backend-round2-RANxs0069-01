@@ -1,6 +1,5 @@
 package ATM;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class ATM {
@@ -69,7 +68,7 @@ public class ATM {
                     }
                     continue;
                 case 4:
-                    System.out.println("感谢使用！再见！");
+                    System.out.println("谢谢使用！");
                     return;
                 default:
                     System.out.println("请输入合法的选项！");
